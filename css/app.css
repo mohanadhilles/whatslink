@@ -1,0 +1,61 @@
+.lg-whatsapp{
+    font-size: 13em !important;
+    margin-top: 10% !important;
+    display: block;
+    color: #2ec17d !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;700&display=swap');
+
+
+body,h3{
+    font-family: 'Almarai', sans-serif;
+}
+
+body{
+    background: linear-gradient(270deg, #edfdfa, #f4fdff, #ffffff);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 2s ease infinite;
+    -moz-animation: AnimationName 2s ease infinite;
+    -o-animation: AnimationName 2s ease infinite;
+    animation: AnimationName 2s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+a:hover, a{
+    color: rgba(0, 0, 0, 0) !important;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .lg-whatsapp{
+        margin-top: 30% !important;
+    }
+}
+@media (max-width: 767.98px)  {
+    .lg-whatsapp{
+        margin-top: 30% !important;
+    }
+}
